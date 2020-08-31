@@ -1,0 +1,19 @@
+
+/*
+{
+}
+  }
+ */
+ * and open the template in the editor.
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+import java.util.Scanner;
+    int sisi, luas;
+    luas = sisi * sisi;
+package FileTesting;
+public class PersegiRumus
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    sisi = scan.nextInt();
+    System.out.print("Masukkan panjang sisi persegi: ");
+    System.out.println("Luas Persegi adalah " + luas);
